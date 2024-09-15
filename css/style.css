@@ -6,9 +6,10 @@
 
 .inner {
   width: 1100px;
+  margin: 0 auto;
 }
 
-.header-inner {
+header {
   height: 78px;
   background-color: #fff;
 }
@@ -33,7 +34,7 @@
   transition: color 0.3s;
 }
 
-.keyvisual-inner {
+.keyvisual {
   padding: 400px 0px;
   background-image: url("../images/keyvisual/keyvisual.jpg");
   background-size: cover;
@@ -53,7 +54,7 @@ h2 {
   color: #fff;
 }
 
-.NEWS-inner {
+.NEWS {
   background-color: #e3f2de;
   height: 260px;
 }
@@ -89,9 +90,10 @@ h2 {
   word-break:break-all;
 }
 
-.skills-inner {
+.skills {
   background-color: #fff;
 }
+
 .skills-title {
   padding-top: 50px;
   font-size: 40px;
@@ -112,16 +114,21 @@ h2 {
   opacity: 0.7;
 }
 
+.skills-icons a img:nth-child(1) {
+  margin-left: 0px;
+}
+
+.skills-icons a img:nth-child(n+4) {
+  margin: 0px 0px 0px 100px;
+}
+
 .img-icons:hover {
   opacity: 1.0;
 }
 
-img:nth-child(n+4) {
-  margin: 0px 0px 0px 100px;
-}
-
-.plan-inner {
+.plan {
   background-color: #d0dfea;
+  height: 400px;
 }
 
 .plan-title {
@@ -133,7 +140,6 @@ img:nth-child(n+4) {
 
 .plan-table {
   margin: auto;
-  padding-bottom: 50px;
   width: 1100px;
 }
 
@@ -168,7 +174,7 @@ tr:nth-child(odd) td {
   background-color: #e0efff;
 }
 
-.sns-inner {
+.sns {
   background-color: #e3f2fd;
   padding: 200px 0px;
   text-align: center;
@@ -188,7 +194,7 @@ tr:nth-child(odd) td {
   transition: background-color 0.5s;
 }
 
-.footer-inner {
+footer {
   height: 63px;
   background-color: #cfd8dc;
 }
