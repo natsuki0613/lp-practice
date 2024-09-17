@@ -109,16 +109,21 @@ h2 {
 .img-icons {
   width: 300px;
   height: 300px;
-  object-fit: cover;
   margin: 50px 0px 100px 100px;
   opacity: 0.7;
 }
 
-.skills-icons a img:nth-child(1) {
+.img-icons img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-icons:nth-child(1) {
   margin-left: 0px;
 }
 
-.skills-icons a img:nth-child(n+4) {
+.img-icons:nth-child(n+4) {
   margin: 0px 0px 0px 100px;
 }
 
