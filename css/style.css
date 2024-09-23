@@ -14,7 +14,7 @@ header {
   background-color: #fff;
 }
 
-.fas {
+.fa-archway {
   margin: 15px 0px 15px 70px;
   color: #777;
   float: left;
@@ -96,6 +96,7 @@ h2 {
 
 .skills-title {
   padding-top: 50px;
+  padding-bottom: 50px;
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
@@ -117,7 +118,7 @@ h2 {
   opacity: 0.7;
 }
 
-.img-icons:hover {
+.img-icons img:hover {
   opacity: 1.0;
 }
 
@@ -175,7 +176,7 @@ tr:nth-child(odd) td {
   text-align: center;
 }
 
-.fab {
+.fab,.fa-envelope{
   text-decoration: none;
   width: 185px;
   padding: 25px 0px;
@@ -184,7 +185,7 @@ tr:nth-child(odd) td {
   overflow:hidden
 }
 
-.fab:hover {
+.fab:hover,.fa-envelope:hover {
   background-color: #fff ;
   transition: background-color 0.5s;
 }
